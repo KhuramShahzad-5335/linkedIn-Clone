@@ -1,0 +1,24 @@
+.navOptions__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: gray;
+    transition: 100ms all ease-in-out ;
+    padding: 5px 15px;
+    width: 70%;
+}
+
+.navOptions__container:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.navOptions__container > .nav__icons{
+    font-size: large;
+}
+
+.navOptions__container > h3{
+    font-size: smaller;
+    font-weight: 400;
+}

@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.App{
+    padding: 0 0 15px 0;
+    background-color: #fcf9f9;
+}
+
+.body{
+    padding: 20px;
+    display: flex;
+}
